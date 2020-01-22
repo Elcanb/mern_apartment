@@ -1,0 +1,19 @@
+@import '../../assets/scss/variables';
+.nav {
+    display: flex;
+    list-style: none;
+    .nav__item {
+        a {
+            text-decoration: none;
+            padding: 35px 15px;
+            color: $charcoal;
+            font-weight: 600;
+            font-size: 15px;
+            cursor: pointer;
+            text-transform: capitalize;
+        }
+        .active {
+            color: $mainOrange;
+        }
+    }
+}

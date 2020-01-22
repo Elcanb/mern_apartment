@@ -1,0 +1,28 @@
+@import '../../assets/scss/variables.scss';
+.footer {
+    background-color: $charcoal;
+    padding: 50px 0;
+    margin-top: 40px;
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        a {
+            float: left;
+            background-color: #ff7200;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin-left: 10px;
+            svg {
+                height: 27px;
+                width: 40px;
+                path {
+                    fill: #fff;
+                    ;
+                }
+            }
+        }
+    }
+}

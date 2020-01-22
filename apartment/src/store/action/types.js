@@ -1,0 +1,16 @@
+export const GET_ADVERTS = "GET_ADVERTS";
+export const ADD_ADVERT = "ADD_ADVERT";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const GET_ERRORS = "GET_ERRORS";
+export const USER_LOADED = "USER_LOADED";
+export const CLEAR_ERRORS = "CLEAN_ERRORS";
+export const USER_LOADING = "USER_LOADING";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const SEARCH_SUCCESS = "SEARCH_SUCCESS";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const GET_ADVERT_BY_ID = "GET_ADVERT_BY_ID";
+
+export const START_LOADING = "START_LOADING";

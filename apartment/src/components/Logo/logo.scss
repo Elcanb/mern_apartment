@@ -1,0 +1,17 @@
+@import '../../assets/scss/variables.scss';
+.logo {
+    display: flex;
+    align-items: center;
+    color: $mainOrange;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: oblique;
+    svg {
+        width: 35px;
+        margin-right: 12px;
+        path {
+            fill: $mainOrange;
+        }
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "mongoURI": "Add your uri",
+    "jwtSecret": "ApartmentJwtSecret"
+}

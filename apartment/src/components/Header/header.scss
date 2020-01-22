@@ -1,0 +1,40 @@
+@import '../../assets/scss/variables';
+.upperHeader {
+    background: $charcoal;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px 0;
+    .location {
+        width: 50%;
+        p {
+            display: inline;
+        }
+    }
+    .contactInfo {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        align-items: center;
+        p {
+            margin: 0;
+        }
+        .phone {
+            margin-left: 20px;
+        }
+    }
+    i {
+        margin-right: 6px;
+        &::before {
+            margin-left: 0;
+        }
+    }
+}
+
+.mainHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
